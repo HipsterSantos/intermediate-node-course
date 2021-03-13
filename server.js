@@ -12,7 +12,7 @@ mongoose.connect('mongodb://localhost/data',{useNewUrlParser:true,useUnifiedTopo
 app.listen(port, ()=>{
 	console.log(`server is listening on port:${port}`)
 })
-
+ 
 // CREATE
 app.post('/users',(req,res)=>{
   User.create({
