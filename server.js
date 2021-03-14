@@ -21,7 +21,7 @@ app.post('/users',(req,res)=>{
   (err,data)=>{sendResponse(res,err,data)}
   )
 })
-
+ 
 app.route('/users/:id')
 // READ
 .get((req,res)=>{
